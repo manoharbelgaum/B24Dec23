@@ -1,5 +1,8 @@
-C:\Users\My Account\eclipse-workspace\nwl\src\test\java\scripts\Demo.java
 C:\Users\My Account\eclipse-workspace\nwl\src\test\java\generic\IAutoConst.java
+C:\Users\My Account\eclipse-workspace\nwl\src\test\java\pages\LoginPage.java
+C:\Users\My Account\eclipse-workspace\nwl\src\test\java\scripts\ValidLogin.java
 C:\Users\My Account\eclipse-workspace\nwl\src\test\java\generic\BaseTest.java
 C:\Users\My Account\eclipse-workspace\nwl\src\test\java\generic\Excel.java
 C:\Users\My Account\eclipse-workspace\nwl\src\test\java\generic\Property.java
+C:\Users\My Account\eclipse-workspace\nwl\src\test\java\pages\ETTPage.java
+C:\Users\My Account\eclipse-workspace\nwl\src\test\java\scripts\InvalidLogin.java

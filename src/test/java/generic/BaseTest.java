@@ -20,7 +20,7 @@ public class BaseTest implements IAutoConst{
 	{
 		WebDriverManager.chromedriver().setup();
 	}
-	@BeforeMethod
+	@BeforeMethod (alwaysRun = true)
 	public void openApp() {
 		softAssert=new SoftAssert();
 		
@@ -32,15 +32,17 @@ public class BaseTest implements IAutoConst{
 		
 		long ITO=Long.parseLong(Property.getProperty(PPT_PATH,"ITO"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(ITO));
+		Reporter.log("Setting ITO:"+ITO,true);
 		
 		String App_URL=Property.getProperty(PPT_PATH,"URL");
 		driver.get(App_URL);
+		Reporter.log("URL:"+App_URL,true);
 		
 		driver.manage().window().maximize();
 
 	}
 	
-	@AfterMethod
+	@AfterMethod (alwaysRun = true)
 	public void closeApp() {
 		Reporter.log("Closing the Browser",true);
 		driver.quit();

@@ -26,19 +26,19 @@
       <![CDATA[Closing the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-24T08:02:49 IST" name="Suite" finished-at="2021-12-24T08:03:18 IST" duration-ms="28792">
+  <suite started-at="2021-12-24T08:20:08 IST" name="Suite" finished-at="2021-12-24T08:20:41 IST" duration-ms="32574">
     <groups>
       <group name="smoke">
-        <method signature="ValidLogin.testValidLogin()[pri:1, instance:scripts.ValidLogin@158a3b2e]" name="testValidLogin" class="scripts.ValidLogin"/>
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:scripts.ValidLogin@2b0f373b]" name="testValidLogin" class="scripts.ValidLogin"/>
       </group> <!-- smoke -->
       <group name="login">
-        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:scripts.InvalidLogin@626c44e7]" name="testInvalidLogin" class="scripts.InvalidLogin"/>
-        <method signature="ValidLogin.testValidLogin()[pri:1, instance:scripts.ValidLogin@158a3b2e]" name="testValidLogin" class="scripts.ValidLogin"/>
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:scripts.InvalidLogin@5669c5fb]" name="testInvalidLogin" class="scripts.InvalidLogin"/>
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:scripts.ValidLogin@2b0f373b]" name="testValidLogin" class="scripts.ValidLogin"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2021-12-24T08:02:49 IST" name="Test" finished-at="2021-12-24T08:03:18 IST" duration-ms="28792">
+    <test started-at="2021-12-24T08:20:08 IST" name="Test" finished-at="2021-12-24T08:20:41 IST" duration-ms="32574">
       <class name="scripts.InvalidLogin">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.InvalidLogin@626c44e7]" started-at="2021-12-24T08:02:49 IST" name="openApp" finished-at="2021-12-24T08:03:00 IST" duration-ms="10499" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.InvalidLogin@5669c5fb]" started-at="2021-12-24T08:20:08 IST" name="openApp" finished-at="2021-12-24T08:20:21 IST" duration-ms="12166" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting ETO:8]]>
@@ -51,11 +51,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testInvalidLogin()[pri:2, instance:scripts.InvalidLogin@626c44e7]" started-at="2021-12-24T08:03:00 IST" name="testInvalidLogin" finished-at="2021-12-24T08:03:03 IST" duration-ms="3436" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:scripts.InvalidLogin@5669c5fb]" started-at="2021-12-24T08:20:21 IST" name="testInvalidLogin" finished-at="2021-12-24T08:20:25 IST" duration-ms="4585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.InvalidLogin@626c44e7]" started-at="2021-12-24T08:03:03 IST" name="closeApp" finished-at="2021-12-24T08:03:04 IST" duration-ms="480" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.InvalidLogin@5669c5fb]" started-at="2021-12-24T08:20:25 IST" name="closeApp" finished-at="2021-12-24T08:20:26 IST" duration-ms="424" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser]]>
@@ -64,7 +64,7 @@
         </test-method> <!-- closeApp -->
       </class> <!-- scripts.InvalidLogin -->
       <class name="scripts.ValidLogin">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.ValidLogin@158a3b2e]" started-at="2021-12-24T08:03:04 IST" name="openApp" finished-at="2021-12-24T08:03:12 IST" duration-ms="8945" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.ValidLogin@2b0f373b]" started-at="2021-12-24T08:20:26 IST" name="openApp" finished-at="2021-12-24T08:20:35 IST" duration-ms="9457" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting ETO:8]]>
@@ -77,11 +77,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogin@158a3b2e]" started-at="2021-12-24T08:03:12 IST" name="testValidLogin" finished-at="2021-12-24T08:03:17 IST" duration-ms="4866" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogin@2b0f373b]" started-at="2021-12-24T08:20:35 IST" name="testValidLogin" finished-at="2021-12-24T08:20:41 IST" duration-ms="5627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.ValidLogin@158a3b2e]" started-at="2021-12-24T08:03:17 IST" name="closeApp" finished-at="2021-12-24T08:03:18 IST" duration-ms="504" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.ValidLogin@2b0f373b]" started-at="2021-12-24T08:20:41 IST" name="closeApp" finished-at="2021-12-24T08:20:41 IST" duration-ms="252" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser]]>

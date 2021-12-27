@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestGC(failed)">
+    <parameter name="xlfile" value="input_qa.xlsx"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="useGrid" value="yes"/>
+    <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
+    <classes>
+      <class name="scripts.ValidLogin">
+        <methods>
+          <include name="openApp"/>
+          <include name="initReport"/>
+          <include name="closeApp"/>
+          <include name="endReport"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- scripts.ValidLogin -->
+    </classes>
+  </test> <!-- TestGC(failed) -->
+  <test thread-count="5" name="TestMFF(failed)">
+    <parameter name="xlfile" value="input_stg1.xlsx"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="useGrid" value="yes"/>
+    <parameter name="hubURL" value="http://localhost:4444/wd/hub"/>
+    <classes>
+      <class name="scripts.InvalidLogin">
+        <methods>
+          <include name="openApp"/>
+          <include name="initReport"/>
+          <include name="testInvalidLogin"/>
+          <include name="closeApp"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- scripts.InvalidLogin -->
+      <class name="scripts.ValidLogin">
+        <methods>
+          <include name="openApp"/>
+          <include name="initReport"/>
+          <include name="closeApp"/>
+          <include name="endReport"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- scripts.ValidLogin -->
+    </classes>
+  </test> <!-- TestMFF(failed) -->
+</suite> <!-- Failed suite [Suite] -->
